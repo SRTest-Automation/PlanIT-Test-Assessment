@@ -1,0 +1,19 @@
+selenium-jupiter/
+ ├── pom.xml
+ ├── Jenkinsfile
+ ├── testng.xml
+ ├── README.md
+ ├── .gitignore
+ └── src
+     └── test
+         └── java
+             ├── base
+             │   └── BaseTest.java
+             ├── pages
+             │   ├── HomePage.java
+             │   ├── ContactPage.java
+             │   ├── ShopPage.java
+             │   └── CartPage.java
+             └── tests
+                 ├── ContactTests.java
+                 └── ShopTests.java
